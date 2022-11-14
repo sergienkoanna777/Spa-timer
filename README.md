@@ -18,4 +18,4 @@ Timer for home spa treatments. Make yourself a holiday.
 [HTML5](https://www.w3schools.com/html/) / [CSS3](https://www.w3schools.com/css/)/ [JavaScript](https://www.w3schools.com/js/)
 
 
-Project Link:  https://github.com/sergienkoanna777/Spa-timer/
+Project Link:  https://github.com/sergienkoanna777/Spa-timer
