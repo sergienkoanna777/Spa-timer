@@ -1,0 +1,81 @@
+#myVideo{
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(204, 93, 29, 0.233);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+}
+
+p{
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+}
+
+
+#container-countdown{
+    display: flex;
+    justify-content: center;
+}
+
+#countdown{
+    font-size: 60px;
+    margin-top: 480px;
+    background-color: rgba(204, 93, 29, 0.233);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+}
+
+#myButton{
+    display:none;
+  }
+
+
+  @media all and (max-width: 1024px){
+    #countdown{
+        margin-top: 250px;
+    }
+  }
+  
+@media all and (max-width: 800px){
+
+    p{
+        font-size: 20px;
+    }
+
+    #myVideo{
+        object-position: 80ch;
+    }
+
+    #countdown{
+        font-size: 40px;
+        margin-top: 200px;
+        border-radius: 20px;
+        padding: 20px;
+        
+    }
+    
+}
+
+@media all and (max-width: 500px){
+    #myButton{
+        display: block;
+        padding: 10px;
+        background: linear-gradient(to right, #10f1c0, #3043ec);
+        border-radius: 20px;
+        border: none;
+    }
+}
